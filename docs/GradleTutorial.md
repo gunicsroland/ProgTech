@@ -58,6 +58,11 @@ This generates:
 - gradlew (Gradle Wrapper) (A script to run Gradle in a consistent way)
 - Project directory structure 
 
+### **Domain-Specific Language** (DSL)
+
+It is a **programming or scripting language designed for a specific problem domain**, rather than general-purpose programming.
+Used to describe builds
+
 ## Bulding the project
 
 After writing the source code we build it with the help of gradle wrapper
@@ -72,19 +77,7 @@ After writing the source code we build it with the help of gradle wrapper
 
 ## Run the software
 
-In ```build.gradle``` file:
-
-```
-plugins {
-    id 'application'
-}
-
-application {
-    mainClass = 'patterns.Main'
-}
-```
-
-Then run it: 
+Run it: 
 ```bash
 ./gradlew run
 ```
